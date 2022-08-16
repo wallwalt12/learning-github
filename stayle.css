@@ -1,0 +1,121 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:#333;
+    padding: 35rem;
+
+}
+
+header {
+    width: 35rem;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+     text-align: center;
+
+}
+
+header img{
+    width: 25rem;
+    height: 25rem;
+border-radius: 100%;
+border: 0.5 rem solid #ccc;
+padding: 2rem;
+
+
+}
+
+header h1{
+
+    font-size: 3rem;
+    color: #ccc;
+}
+header h3{
+    font-size: 2rem;
+    color: #ccc;
+}
+
+header ul{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #ccc;
+    background-color: #333;
+    padding: 1rem 0;
+    font-size: 2rem;
+    display: block; 
+    margin: 1rem 1rem;
+}
+
+header ul li a:hover{
+    background-color: rgb(113, 70, 70);
+}
+
+section{
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column;
+   padding: 0 10rem;
+}
+section h3{
+    color: #ccc;
+    font-size: 1rem;
+    margin-top: 28%;
+}
+section h2{
+    color: #ccc;
+    font-size: 3rem;
+   
+}
+
+section p{
+    color: #ccc;
+    font-size: 1.5rem;
+  
+}
+
+.skills h4{
+
+    font-size: 3rem;
+    color: #ccc;
+   margin-top: 70%;
+}
+
+.skills .box-container{
+    display:flex ;
+    background-color: rgb(34, 41, 113);
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+ .skills span{
+    font-size: 2rem;
+    color: #ccc;
+ }
+ .skills h5{
+    font-size: 3rem;
+    color: #ccc;
+ }
