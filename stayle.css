@@ -1,5 +1,4 @@
-
-  *{
+*{
     margin: 0;
     padding: 0;
   }
@@ -19,7 +18,7 @@ body{
 
 header {
     width: 35rem;
-    background-color: #111;
+    background-color: rgb(49, 49, 52);
     position: fixed;
     top: 0;
     left: 0;
@@ -41,6 +40,7 @@ padding: 2rem;
 
 }
 
+
 header h1{
 
     font-size: 3rem;
@@ -51,9 +51,6 @@ header h3{
     color: #ccc;
 }
 
-header ul{
-    list-style: none;
-}
 header ul li a{
     text-decoration: none;
     color: #ccc;
@@ -82,14 +79,8 @@ section h3{
 section h2{
     color: #ccc;
     font-size: 3rem;
-   
 }
 
-section p{
-    color: #ccc;
-    font-size: 1.5rem;
-  
-}
 
 .skills h4{
 
